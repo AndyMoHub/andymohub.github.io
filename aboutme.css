@@ -1,0 +1,112 @@
+body {margin:0;}
+
+
+/* Inserting background image for the About Me page source: https://www.w3schools.com/css/css_background_image.asp*/
+
+body {
+
+  background-image: url("images/aboutmeback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Makes a Transparent box to go under the picture and text elements*/
+
+.main {
+  background-color: hsla(32, 29%, 87%, 0.4);
+  width:auto;
+  padding: 80px;
+  margin: 20px;
+
+}
+
+/* NAV Bar */
+
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #bbf8ab;
+  font-family: "Montserrat", sans-serif 
+   
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(64, 88, 49, 0.841);
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  transition-duration: 0.8s;
+
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(118, 219, 105, 0.705);
+
+}
+
+  /*inserts profile image*/
+
+ .aboutme-pic img {
+    
+    width: auto;
+    max-width: 25vw;
+    margin-top: 30px;
+    border-radius: 20%;
+    position:relative;
+
+
+  }
+
+  /*Headings and Paragraphs*/
+
+.paragraph1 h1 {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  color: rgba(18, 167, 82, 0.746);
+  font-size: 4vw;
+  font-family: "Montserrat", sans-serif
+  }
+
+  .paragraph1 p {
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 57%;
+    color: rgba(255, 255, 255, 0.906);
+    transform: translate(-50%, -50%);
+    font-size: 1.2vw;
+    font-family: "Montserrat", sans-serif
+    }
+
+.paragraph2 h1 {
+  text-align: center;
+  position: absolute;
+  top: 49%;
+  left: 38%;
+  color: rgba(18, 167, 82, 0.746);
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif
+  }
+
+.paragraph2 p {
+  text-align: center;
+  position: absolute;
+  top: 69%;
+  left: 56%;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  font-size: 1.2vw;
+  font-family: "Montserrat", sans-serif
+   }
