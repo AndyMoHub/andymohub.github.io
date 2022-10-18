@@ -4,7 +4,7 @@ body {margin:0;}
 /* Inserting background image for the home page source: https://www.w3schools.com/css/css_background_image.asp*/
 
 body {
-  background-image: url("/images/BackgroundHome1.png"); 
+  background-image: url("images/BackgroundHome1.png"); 
   height: 760px;
   background-position:top;
   background-repeat: no-repeat;
