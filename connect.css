@@ -16,39 +16,36 @@ body {
   position: relative; 
 }
 
-/* NAV Bar source: https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+/* START: Navigation bar NAV Bar source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 
 ul {
   list-style-type: none;
-  margin: 0 auto;
-  font-size: 20px;
-  padding: 0px;
+  margin: 0 auto; /*sets the margin to 0 so that the NAV bar extent is all the way to the edge of the page*/
   overflow: hidden;
-  background-color: #bbf8ab;
-  font-family: "Montserrat", sans-serif 
-   
+  background-color: #f8fdf9;
+
 }
 
-li {
-  float: left;
-}
+/*Nav bar style*/ 
 
 li a {
-  display: block;
-  color: rgba(64, 88, 49, 0.841);
-  text-align: center;
-  padding: 18px 22px;
-  text-decoration: none;
-  transition-duration: 0.8s;
-
+  display: block; /*displays the element as a block element*/
+  color: rgba(79, 163, 27, 0.841); /*changes the color of font*/
+  padding: 20px 28px; /*increase the padding*/
+  float: left; /* make the nav bar appear on the left-hand side*/
+  font-size: 20px; /*changes the font size of the NAV bar text*/
+  text-decoration: none; /* remove the underline over the NAV bar text */
+  font-family: "Montserrat", sans-serif /*Change font*/
 }
 
-/* make a hover effect when the mouse is over the a subject on the nav bar source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/*highlights section of nav bar depending on where your mouse cursor is*/
 
 li a:hover:not(.active) {
   background-color: rgba(118, 219, 105, 0.705);
-
+  transition-duration: 0.8s;
 }
+
+/* END Navigation Bar
 
 /* Makes a Transparent box to go under the map and forms*/
 
