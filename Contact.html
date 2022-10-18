@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title and reference to CSS sheet -->
+    <title>Connect Page</title> 
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body-connect">
+
+
+        <!-- START: MenusOption: Menus/Navigation Bars, Navigation bar source: https://www.w3schools.com/css/css_navbar_horizontal.asp -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="Contact.html">Connect</a><li>       
+      
+        </ul>
+        <!-- END: Navigation Bar -->
+
+    <div class="transparent-box2"> <!-- Adds a element for a transparent box to be on top of the background-->
+
+     <!-- START: LinksOption -->
+
+            <!-- These links import custom icons source: https://ionic.io/ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+            <!-- Created a div class for the twitter logo so I can customize it in css -->
+        <div class = "twitter-logo">
+            <a class = "twitter-logo1" href="https://twitter.com" target="_blank"> <!-- creates a link that opens to twitter on a new tab -->
+            <ion-icon name="logo-twitter"></ion-icon> <!-- Adds in the twitter logo-->
+            </a>
+        </div>
+
+        <div class = "linkedin-logo">
+            <a class = "linkedin-logo1" href="https://linkedin.com" target="_blank"> <!-- creates a link that opens to linkedin on a new tab -->
+            <ion-icon name="logo-linkedin"></ion-icon> <!-- Adds in the linkedin logo-->
+            </a>
+        </div>
+
+        <div class = "insta-logo">
+            <a class = "insta-logo1" href="https://www.instagram.com/" target="_blank"> <!-- creates a link that opens to instagram on a new tab -->
+            <ion-icon name="logo-instagram"></ion-icon> <!-- Adds in the instagram logo-->
+            </a>
+        </div>
+
+        <!-- END: LinksOption -->
+
+            <!-- imports photo -->
+        <div class = "Portrait-connect">
+            <img src= "Images/AndyPortrait2a.png" alt="Andy Portrait">
+        </div>
+
+            <!-- Adds in the text boxes for the user to input their information, source: https://www.w3schools.com/html/html_forms.asp-->
+        <div>
+            <input type= "text" class="name-box" placeholder="Name">
+            <input type="email" class="email-box" placeholder="E-mail">
+        </div>
+
+        <div>
+            <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+            
+            <!-- Created a button (placeholder) to submit the users reponses -->    
+            <button class="submit-button">Submit</button>
+        </div>
+           
+        <!-- Text -->
+            <div class = "contact-text">
+                <h1> Connect with Me!</h1>
+
+            </div>
+
+    </div>
+    
+</body>
