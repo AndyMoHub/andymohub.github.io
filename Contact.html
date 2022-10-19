@@ -4,12 +4,13 @@
 <head>
     <!-- Title and reference to CSS sheet -->
     <title>Connect Page</title> 
-    <link rel="stylesheet" href="mystyle.css"> <!-- link to CSS -->
+    <link rel="stylesheet" href="mystyle.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- I added this so that you could view the webpage on the phone but the website still has not scaled to properly fit a phones dimensions source: https://www.w3schools.com/css/css_rwd_viewport.asp -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body class="body-connect"> 
+<!-- created a class here to seperate the body from the other pages -->
+<body class="body-connect">
 
         <!-- START: MenusOption: Menus/Navigation Bars, Navigation bar source: https://www.w3schools.com/css/css_navbar_horizontal.asp -->
         <ul>
@@ -23,19 +24,18 @@
 
     <div class="transparent-box2"> <!-- Adds a element for a transparent box to be on top of the background-->
 
-<!-- imports photo, source: https://www.w3schools.com/html/html_images.asp  -->
-        
-        <-- END: 5 pictures Option: Picture #5 taken from my phone --> 
+<!-- END: ImageOption: 5 or more unique images: Picture #5/5 taken from my phone -->
        
             <img class="picture-self" src="Images/AndyPortrait2a.png" alt="Andy Portrait"/>
       
+
      <!-- START: LinksOption -->
 
-            <!-- These links import custom icons source: https://ionic.io/ionicons I was able to understand how to do this with the following video: https://www.youtube.com/watch?v=Hskt1jN7JTc-->
+            <!-- These links import custom icons source: https://ionic.io/ionicons -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-            
+            <!-- Created a div class for the twitter logo so I can customize it in css -->
         <div class = "twitter-logo">
             <a class = "twitter-logo1" href="https://twitter.com" target="_blank"> <!-- creates a link that opens to twitter on a new tab -->
             <ion-icon name="logo-twitter"></ion-icon> <!-- Adds in the twitter logo-->
