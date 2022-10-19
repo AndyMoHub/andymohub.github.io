@@ -1,9 +1,8 @@
 /*Make the nav bar appear at the very edge of the page so there are no awk spaces*/
 body {margin:0;}
 
-/* Inserting background image (1) for the home page source: https://www.w3schools.com/css/css_background_image.asp*/
+/* START: ImageOption: 5 or more unique images: Picture #1/5 taken from my phone, source: https://www.w3schools.com/css/css_background_image.asp*/
 
-/*  <-- START: 5 pictures Option: Picture #1 taken from my phone -->
 .main-home {
   background-image: url("Images/BackgroundHome1.png"); 
   background-position:top;
@@ -97,7 +96,6 @@ li a:hover:not(.active) {
   top: 1202%;
   left: 46%;
 
-
 }
 
 /*Button style source: https://www.w3schools.com/css/css3_buttons.asp*/
@@ -143,7 +141,11 @@ li a:hover:not(.active) {
 /*---------------------------------------------------------------------------------------------*/
 
 .main-aboutme {
-  background-image: url("Images/aboutmeback.jpg");  /* START: 5 pictures Option: Picture #3 taken from my phone */
+
+
+  /* START: ImageOption: 5 or more unique images: Picture #3/5 taken from my phone*/
+
+  background-image: url("Images/aboutmeback.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -228,9 +230,11 @@ font-family: "Montserrat", sans-serif
 
  /*---------------------------------------------------------------------------------------------*/
  
+ /* START: ImageOption: 5 or more unique images: Picture #4/5 taken from my phone*/
+
  .body-connect {
 
-  background-image: url("Images/Connectbackground.jpg"); /* START: 5 pictures Option: Picture #4 taken from my phone */
+  background-image: url("Images/Connectbackground.jpg");
   background-position:top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,6 +251,8 @@ font-family: "Montserrat", sans-serif
     height: 41vw;
 
 }
+
+/* Resizing and positioning for my picture */
 
 .picture-self {
   position: absolute;
@@ -302,9 +308,7 @@ font-family: "Montserrat", sans-serif
   font-family: "Montserrat", sans-serif 
 }
 
-
-
-/*Submit button layout*/
+/*Submit button positioning*/
 
 .submit-button {
   
@@ -312,30 +316,23 @@ font-family: "Montserrat", sans-serif
   position: absolute;
   top: 75%;
   left: 46%;
-  font-family: "Montserrat", sans-serif 
-  
 }
 
+/* Submit button, fonts, colors, and other customizations */
 .submit-button {
-  background-color: #75c537e9;
+
   border: none;
-  color: white;
   padding: 4px 22px;
-  text-align: center;
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
+  background-color: #36931efc; /*For the button color Green */
+  color: rgb(255, 255, 255); /* For the button text color */
   font-family: "Montserrat", sans-serif
   
 }
 
-.submit-button {
-  background-color: #36931efc; /* Green */
-  color: rgb(255, 255, 255);
-}
-
-
-/*twitter logo customization and transformations*/
+/*twitter positioning and fonts*/
 
 .twitter-logo {
   position:absolute;
@@ -344,18 +341,20 @@ font-family: "Montserrat", sans-serif
   font-size: 60px;
 }
 
+/* Logo hover */ 
+
 .twitter-logo1:hover {
   color:rgb(23, 135, 240);
 }
 
+/* Logo color */ 
 .twitter-logo1 {
   transition: color 0.2s;
   color:rgb(29 161 242)
   
 }
 
-/*linkedin logo customization and transformations*/
-
+/*positioning and fonts*/
 .linkedin-logo {
   position:absolute;
   top: 40%;
@@ -363,16 +362,18 @@ font-family: "Montserrat", sans-serif
   font-size: 60px;
 }
 
+/* Hover color */
 .linkedin-logo1:hover {
   color:rgb(81, 156, 255);
 }
 
+/* Logo color */ 
 .linkedin-logo1 {
   color:rgb(10, 102, 194)
   
 }
 
-/*instagram logo customization and transformations*/
+/*instagram logo positioning and fonts*/
 
 .insta-logo {
   position:absolute;
@@ -381,10 +382,12 @@ font-family: "Montserrat", sans-serif
   font-size: 60px;
 }
 
+/* Hover color */
 .insta-logo1:hover {
   color:rgb(110, 18, 15);
 }
 
+/* Logo color */ 
 .insta-logo1 {
   color:rgb(251, 57, 88)
   
