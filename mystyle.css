@@ -31,7 +31,7 @@ li a {
   float: left; /* make the nav bar appear on the left-hand side*/
   font-size: 20px; /*changes the font size of the NAV bar text*/
   text-decoration: none; /* remove the underline over the NAV bar text */
-  font-family: "Montserrat", sans-serif /*Change font*/
+  font-family: "Montserrat", sans-serif
 }
 
 /*highlights section of nav bar depending on where your mouse cursor is*/
