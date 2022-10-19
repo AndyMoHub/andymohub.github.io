@@ -3,6 +3,7 @@ body {margin:0;}
 
 /* Inserting background image (1) for the home page source: https://www.w3schools.com/css/css_background_image.asp*/
 
+/*  <-- START: 5 pictures Option: Picture #1 taken from my phone -->
 .main-home {
   background-image: url("Images/BackgroundHome1.png"); 
   background-position:top;
@@ -142,8 +143,7 @@ li a:hover:not(.active) {
 /*---------------------------------------------------------------------------------------------*/
 
 .main-aboutme {
-
-  background-image: url("Images/aboutmeback.jpg");
+  background-image: url("Images/aboutmeback.jpg");  /* START: 5 pictures Option: Picture #3 taken from my phone */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -230,7 +230,7 @@ font-family: "Montserrat", sans-serif
  
  .body-connect {
 
-  background-image: url("Images/Connectbackground.jpg");
+  background-image: url("Images/Connectbackground.jpg"); /* START: 5 pictures Option: Picture #4 taken from my phone */
   background-position:top;
   background-repeat: no-repeat;
   background-size: cover;
